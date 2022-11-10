@@ -1,0 +1,8 @@
+Mar-20-2022 13:32:47 [LOGGER] [31merror[39m: Unable to connect to the database:
+Access denied for user 'root'@'localhost' (using password: YES) 
+Oct-19-2022 13:57:30 [LOGGER] [31merror[39m: Unable to connect to the database:
+Access denied for user 'root'@'localhost' (using password: YES) 
+Oct-19-2022 13:57:58 [LOGGER] [31merror[39m: Unable to connect to the database:
+Access denied for user 'crowdfunding'@'localhost' (using password: YES) 
+Oct-19-2022 13:58:27 [LOGGER] [31merror[39m: Unable to connect to the database:
+Access denied for user 'crowdfunding'@'localhost' (using password: YES) 
