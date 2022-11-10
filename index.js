@@ -14,7 +14,11 @@ const logErrors = require('./middleware/errorHandling.middleware');
 const filePathMiddleware = require('./middleware/filePath.middleware');
 const logger = require('./utils/logger');
 const deleteAlmostAllGroupMessages = require('./scheduls/messages.schedule');
-
+// DB_HOST=db-mysql-nyc1-85077-do-user-12301515-0.b.db.ondigitalocean.com
+// DB_PORT=25060
+// DB_USER=doadmin
+// DB_NAME=defaultdb
+// DB_PASSWORD=AVNS_3ExqzleTxlJgaYe125l
 const pid = process.pid;
 const { PORT } = process.env || 3010;
 
