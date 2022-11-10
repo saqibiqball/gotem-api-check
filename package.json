@@ -4,7 +4,7 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "node index.js",
+		"start": "NODE_ENV=production env-cmd -f ./.env.production node index.js",
 		"crow": "NODE_ENV=production env-cmd -f ./.env.production node index.js",
 		"dev": "cross-env NODE_ENV=development env-cmd -f ./.env.development nodemon index.js",
 		"format:check": "prettier --check .",
